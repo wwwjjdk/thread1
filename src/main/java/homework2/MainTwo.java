@@ -24,6 +24,7 @@ public class MainTwo {
             sleep();
             List<Future<String>> futuresAll = executorService.invokeAll(list);
 
+
           /*
             futures.add(executorService.submit(new MyCallable()));//можно через лямбду
             futures.add(executorService.submit(new MyCallable()));// это разные потоки
